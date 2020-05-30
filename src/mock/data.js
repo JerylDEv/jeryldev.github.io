@@ -2,28 +2,32 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jeryl Estopace', // e.g: 'Name | Developer'
+  title: 'Jeryl Estopace | Full Stack Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: "Hi! I'm Jeryl Estopace aka JerylDEv. Welcome to my website", // e.g: Welcome to my website
+  description: "Hi! I'm Jeryl Estopace. Welcome to my Portfolio website.", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Jeryl',
+  title: "Hi, I'm ",
+  name: 'Jeryl Estopace',
   subtitle: 'I like to build things with code.',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: 'By day, I work as a Technical Support Engineer.',
-  paragraphTwo: 'By night, I study and code a lot.',
-  // paragraphThree: '',
+  img: 'profile3.jpg',
+  paragraphOne:
+    'I currently work as a Technical Support Engineer assisting NetSuite users. I have been in the technical software service industry for more than 6 years now.',
+  paragraphTwo:
+    'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer and so I made a commitment to study how to code every day. In 2019, I was able to publish my first Flutter mobile application, create a couple of Flutter mobile application prototypes, create videos teaching the Dart programming language and Flutter, and train a group of people on how to create Flutter application.',
+  paragraphThree:
+    'On December 29, 2019, I started to learn full stack web development at freeCodeCamp.org and I also took the "The Complete Web Developer in 2020: Zero to Mastery" course at Udemy. I finally earned my Full Stack, Developer Certification at freeCodeCamp.org on May 16, 2020 and have been building full stack web applications since.',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
   // resume: 'https://www.slideshare.net/slideshow/embed_code/key/54t6obJEXh6XZJ', // if no resume, the button will not show up
-  resume: '../documents/Jeryl Donato Estopace - Resume.pdf', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/12ylvhQ5HieBl_EwHJor3DuNF6n0L2sR-ZA5fBsnx7os/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -92,13 +96,13 @@ export const footerData = {
     },
     {
       id: uuidv1(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/jeryldev/',
+      name: 'github',
+      url: 'https://github.com/JerylDEv',
     },
     {
       id: uuidv1(),
-      name: 'github',
-      url: 'https://github.com/JerylDEv',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/jeryldev/',
     },
     {
       id: uuidv1(),
