@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "jeryl-github-portfolio",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "This is my GitHub portfolio",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
@@ -29,7 +30,7 @@
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-github-btn": "^1.1.1",
+    "react-github-btn": "^1.1.1",   
     "react-helmet": "^5.2.1",
     "react-reveal": "^1.2.2",
     "react-tilt": "^0.1.4",
@@ -45,16 +46,17 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.1",
     "lint-staged": "^10.0.2",
     "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/JerylDEv/JerylDEv.github.io"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/JerylDEv/JerylDEv.github.io/issues"
   },
   "husky": {
     "hooks": {
