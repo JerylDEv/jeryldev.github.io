@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'I currently work as a Technical Support Engineer assisting NetSuite users. I have been in the technical software service industry for more than 6 years now.',
   paragraphTwo:
-    'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer and so I made a commitment to study how to code every day. In 2019, I was able to publish my first Flutter mobile application, create a couple of Flutter mobile application prototypes, create videos teaching the Dart programming language and Flutter, and train a group of people on how to create Flutter application.',
+    'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer and so I made a commitment to study how to code every day. In 2019, I was able to publish my first Flutter mobile application, create a couple of Flutter mobile application prototypes, create videos teaching the Dart programming language and Flutter, and train a group of people on how to create simple to advanced Flutter applications.',
   paragraphThree:
     'On December 29, 2019, I started to learn full stack web development at freeCodeCamp.org and I also took the "The Complete Web Developer in 2020: Zero to Mastery" course at Udemy. I finally earned my Full Stack, Developer Certification at freeCodeCamp.org on May 16, 2020 and have been building full stack web applications since.',
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
