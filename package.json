@@ -3,7 +3,7 @@
   "name": "jeryl-github-portfolio",
   "private": true,
   "description": "This is my GitHub portfolio",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
