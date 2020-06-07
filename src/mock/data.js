@@ -27,7 +27,8 @@ export const aboutData = {
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
   // resume: 'https://www.slideshare.net/slideshow/embed_code/key/54t6obJEXh6XZJ', // if no resume, the button will not show up
   resume:
-    'https://docs.google.com/document/d/12ylvhQ5HieBl_EwHJor3DuNF6n0L2sR-ZA5fBsnx7os/edit?usp=sharing', // if no resume, the button will not show up
+    // 'https://docs.google.com/document/d/12ylvhQ5HieBl_EwHJor3DuNF6n0L2sR-ZA5fBsnx7os/edit?usp=sharing', // if no resume, the button will not show up
+    'https://drive.google.com/file/d/177trGqcBbYOy9ow2-fR9qu68Xx-lctpg/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
