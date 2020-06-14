@@ -19,26 +19,32 @@ export const heroData = {
 export const aboutData = {
   img: 'profile3.jpg',
   paragraphOne:
-    'I currently work as a Technical Support Engineer assisting NetSuite users. I have been in the technical software service industry for more than 6 years now.',
+    "I have a bachelor's degree in Accounting and have been in the accounting and software services industry for more than 8 years. I currently work as a Technical Support Engineer assisting NetSuite users.",
   paragraphTwo:
-    'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer and so I made a commitment to study how to code every day. In 2019, I was able to publish my first Flutter mobile application, create a couple of Flutter mobile application prototypes, create videos teaching the Dart programming language and Flutter, and train a group of people on how to create simple to advanced Flutter applications.',
+    'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer. I made a commitment to learn how to code every day and also enrolled in a Graduate Diploma in Computer Science program in a university. In 2019, I published my first Flutter mobile application, created a couple of Flutter mobile application prototypes, created videos about Flutter and the Dart programming language, and trained a group of developers on how to create Flutter applications.',
   paragraphThree:
-    'On December 29, 2019, I started to learn full stack web development at freeCodeCamp.org and I also took the "The Complete Web Developer in 2020: Zero to Mastery" course at Udemy. I finally earned my Full Stack, Developer Certification at freeCodeCamp.org on May 16, 2020 and have been building full stack web applications since.',
-  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-  // resume: 'https://www.slideshare.net/slideshow/embed_code/key/54t6obJEXh6XZJ', // if no resume, the button will not show up
-  resume:
-    // 'https://docs.google.com/document/d/12ylvhQ5HieBl_EwHJor3DuNF6n0L2sR-ZA5fBsnx7os/edit?usp=sharing', // if no resume, the button will not show up
-    'https://drive.google.com/file/d/177trGqcBbYOy9ow2-fR9qu68Xx-lctpg/view', // if no resume, the button will not show up
+    'On May 16, 2020, I finally earned my Full Stack, Developer Certification at freeCodeCamp.org after completing more than 1800 hours of coursework and submitting 30 projects ranging from "Responsive Web Design" to "Information Security and Quality Assurance". I am regularly building my side-projects and explore different web development stacks outside of work.',
+  resume: 'https://drive.google.com/file/d/177trGqcBbYOy9ow2-fR9qu68Xx-lctpg/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'facecatch.png',
+    title: 'FaceCatch',
+    info:
+      'This is a full stack web application that detects the faces in an image. I built this web app using React Hooks for the front-end, Node.js and Express.js for the back-end, and PostgreSQL for the Database. I then deployed all of them in Heroku and connected the front-end and back-end to their own GitHub repositories.',
+    info2: '',
+    url: 'https://facecatch.herokuapp.com/',
+    repo: 'https://github.com/JerylDEv/facecatch', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'myCloudList.png',
     title: 'My Cloud To-do List',
     info:
-      'I always wanted to have a plain tool to store my ideas and to-dos. For this reason, I created this Android app called My Cloud To-do List using Flutter SDK and Firebase. Once you have logged in to the app, you can store your ideas and to-dos inside your Phone and into the Cloud. ',
+      'I always wanted to have a plain tool to store my ideas and to-dos. For this reason, I created this Android app called My Cloud To-do List using Flutter SDK and Firebase. Once you have logged in to the app, you can store your ideas and to-dos inside your Phone and into the Cloud.',
     info2: '',
     url: 'https://play.google.com/store/apps/details?id=com.jeryldev.my_scheduler&hl=en',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
