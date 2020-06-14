@@ -24,7 +24,7 @@ export const aboutData = {
     'In 2018, I decided to pursue my old dream of becoming a Full Stack Developer. I made a commitment to learn how to code every day and also enrolled in a Graduate Diploma in Computer Science program in a university. In 2019, I published my first Flutter mobile app, created a couple of Flutter mobile application prototypes, launched a series of videos teaching Flutter and the Dart programming language, and trained a group of developers on how to create Flutter applications.',
   paragraphThree:
     'On May 16, 2020, I finally earned my Full Stack, Developer Certification at freeCodeCamp.org after completing more than 1800 hours of coursework and submitting 30 projects ranging from "Responsive Web Design" to "Information Security and Quality Assurance". I am regularly building my side-projects and explore different web development stacks outside of work.',
-  resume: 'https://drive.google.com/file/d/177trGqcBbYOy9ow2-fR9qu68Xx-lctpg/view', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1fWyTUMbUcG73pqZKY0HpUaOGzRr4kB3N/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
